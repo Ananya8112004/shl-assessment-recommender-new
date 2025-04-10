@@ -1,0 +1,14 @@
+name,url,remote_support,adaptive_support,duration,test_type
+Cognitive Ability Test,https://www.shl.com/product/cognitive-ability-test/,Yes,Yes,30 mins,Cognitive
+Personality Questionnaire,https://www.shl.com/product/personality-questionnaire/,Yes,No,25 mins,Personality
+Software Developer Test,https://www.shl.com/product/software-developer-test/,Yes,Yes,45 mins,Technical
+Leadership Judgment Indicator,https://www.shl.com/product/leadership-judgment-indicator/,Yes,No,35 mins,Leadership
+Sales Potential Test,https://www.shl.com/product/sales-potential-test/,Yes,Yes,40 mins,Sales
+Numerical Reasoning Test,https://www.shl.com/product/numerical-reasoning-test/,Yes,Yes,20 mins,Cognitive
+Verbal Reasoning Test,https://www.shl.com/product/verbal-reasoning-test/,Yes,No,20 mins,Cognitive
+Situational Judgment Test,https://www.shl.com/product/situational-judgment-test/,Yes,Yes,25 mins,Behavioral
+IT Analyst Assessment,https://www.shl.com/product/it-analyst-assessment/,Yes,Yes,30 mins,Technical
+Graduate Talent Assessment,https://www.shl.com/product/graduate-talent-assessment/,Yes,No,40 mins,Graduate
+
+
+
