@@ -1,15 +1,13 @@
 import pandas as pd
 import google.generativeai as genai
-import os
-from dotenv import load_dotenv
+import streamlit as st  # Import Streamlit
 
-# Load .env file
-load_dotenv()
-api_key = os.getenv("GEMINI_API_KEY")
+# Fetch the API key from Streamlit's secrets
+api_key = st.secrets["api_keys"]["GEMINI_API_KEY"]
 
-# Check if API key was loaded
+# Check if API key is loaded
 if not api_key:
-    raise ValueError("GEMINI_API_KEY is not set. Please check your .env or secrets.toml file.")
+    raise ValueError("GEMINI_API_KEY is not set. Please check your secrets.toml file.")
 
 # Setup Gemini API
 genai.configure(api_key=api_key)
