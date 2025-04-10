@@ -9,7 +9,7 @@ api_key = st.secrets["api_keys"]["GEMINI_API_KEY"]
 if not api_key:
     raise ValueError("GEMINI_API_KEY is not set. Please check your secrets.toml file.")
 
-# Setup Gemini API
+# Setup Gemini API with the fetched API key
 genai.configure(api_key=api_key)
 
 # ✅ Correct model name
